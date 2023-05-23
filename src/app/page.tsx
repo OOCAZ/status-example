@@ -115,7 +115,10 @@ export default function Home() {
               {arrayData.map((element) => (
                 <Card key={element.key} style={{ marginTop: 20 }}>
                   <CardContent>
-                    <Typography variant="h4"> Status of Product 1: </Typography>
+                    <Typography variant="h4">
+                      {" "}
+                      Status of {element.name}:{" "}
+                    </Typography>
                     <Typography variant="h4" style={{ color: element.color }}>
                       {element.status}
                     </Typography>
