@@ -127,6 +127,9 @@ export default function Home() {
               ))}
             </Box>
           </TabPanel>
+          <TabPanel value={value} index={1}>
+            <Typography variant="h4">API Documentation</Typography>
+          </TabPanel>
         </Box>
       </main>
     </ThemeProvider>
